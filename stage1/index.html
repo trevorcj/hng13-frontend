@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trevor Chimamanda Justus - Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="index.html" class="nav-brand">Trevor C. Justus</a>
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Profile</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Toggle navigation menu">
+          ☰
+        </button>
+      </div>
+    </nav>
+
+    <main class="page-content">
+      <article data-testid="test-profile-card" class="profile-card-container">
+        <figure>
+          <img
+            src="https://res.cloudinary.com/dhd6wvd09/image/upload/v1760772644/IMG_7558_okf4pf.png"
+            alt="Profile picture of Trevor C. Justus"
+            width="150"
+            height="150"
+            data-testid="test-user-avatar" />
+        </figure>
+
+        <div class="card-details">
+          <header>
+            <h2 data-testid="test-user-name">Trevor C. Justus</h2>
+            <p data-testid="test-user-bio">
+              I’m a Frontend Developer who builds web applications that don’t
+              just look good, but perform well and rank high.
+            </p>
+          </header>
+
+          <div class="time-display">
+            <p>Current time (ms):</p>
+            <p class="time" data-testid="test-user-time">0000000000000</p>
+          </div>
+
+          <nav>
+            <ul data-testid="test-user-social-links" class="social-links">
+              <li>
+                <a
+                  href="https://www.x.com/trevoppa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-twitter"
+                  >X (Twitter)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/trevorcjustus"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.github.com/trevorcj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <div class="profile-details">
+            <section>
+              <h3>Hobbies</h3>
+              <ul data-testid="test-user-hobbies">
+                <li>Researching</li>
+                <li>Playing the Guitar</li>
+                <li>Skydiving</li>
+                <li>Coding</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>Dislikes</h3>
+              <ul data-testid="test-user-dislikes">
+                <li>Bugs in code</li>
+                <li>Slow network connection</li>
+                <li>Ugly UI Design</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
