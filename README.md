@@ -12,4 +12,4 @@ The task required building a single, fully **accessible** and **responsive** pro
 
 The task required building multi-page applications. A Contact Us page with form validation, and an About Me page to share reflections.
 
-**Live Demo:** [https://trevorsprofilecard2.netlify.app/](https://trevorsprofilecard2.netlify.app/)
+**Live Demo:** [https://trevorsprofilecard.vercel.app/](https://trevorsprofilecard.vercel.app/)
